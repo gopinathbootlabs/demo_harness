@@ -25,9 +25,7 @@ pipeline:
                   name: Run_1
                   identifier: Run_1
                   spec:
-                    connectorRef: gopinathbootlabs
-                    image: first
-                    shell: Sh
+                    shell: Bash
                     command: java Main.java
           platform:
             os: Linux
