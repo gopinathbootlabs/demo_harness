@@ -26,7 +26,7 @@ pipeline:
                   identifier: Run_1
                   spec:
                     shell: Bash
-                    command: java Main.java
+                    command: javac Main.java
           platform:
             os: Linux
             arch: Amd64
